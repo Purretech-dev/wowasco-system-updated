@@ -1,0 +1,73 @@
+/* SIDEBAR CONTAINER */ 
+.sidebar { width: 260px; 
+    height: 100vh; 
+    background: #0a2a43; 
+    color: white; 
+    position: fixed; 
+    left: 0; top: 0; 
+    overflow-y: auto; 
+    font-family: Arial, sans-serif; } 
+    
+    /* HEADER / LOGO */ 
+    
+    .sidebar-header 
+    { padding: 20px 10px; 
+        text-align: center; 
+        background: #081f33; 
+        border-bottom: 2px solid #145a86; 
+    } 
+    .company-logo { width: 80px; height: auto; 
+    } 
+    
+    /* MENU */ 
+    .menu { list-style: none; 
+        padding: 0; margin: 0; 
+    } 
+    .menu-item { border-bottom: 1px solid #123b5d;
+     } 
+     
+     /* MAIN LINKS */ 
+     
+     .menu-link { display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 12px 20px; 
+        cursor: pointer; 
+        text-decoration: none; 
+        color: white; 
+        font-size: 14px;
+     } 
+     .menu-link:hover 
+     { background: #0f3a5c; 
+    } 
+    
+    /* SUBMENU */ 
+    
+    .submenu 
+    { 
+        display: none; 
+        list-style: none; 
+        padding: 0; margin: 0; 
+        background: #0d3554; 
+    } 
+    .submenu li a { 
+        display: block; 
+        padding: 10px 40px; 
+        font-size: 13px; 
+        text-decoration: none; 
+        color: #dcdcdc; 
+    } 
+    .submenu li a:hover { 
+        background: #145a86; 
+        color: white; 
+    } 
+    
+    /* ACTIVE MENU */
+    .menu-item.active >
+     .submenu { display: block; } 
+
+     /* Arrow rotation */ 
+     
+     .arrow { transition: 0.3s ease; 
+    } .menu-item.active .arrow 
+    { transform: rotate(90deg); }
