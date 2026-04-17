@@ -58,7 +58,7 @@
                 
             </ul>
         </li>
-                <li class="menu-item"><a href="modules/surveillance.php" class="menu-link">sureveillance</a></li> 
+               <!-- <li class="menu-item"><a href="modules/surveillance.php" class="menu-link">sureveillance</a></li> -->
 
          <!-- Customer Relations -->
         <li class="menu-item has-submenu">
